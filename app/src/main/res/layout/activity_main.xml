@@ -153,15 +153,15 @@
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:src="@drawable/terpercaya_lebih_dari_45_tahun"
-        android:layout_marginLeft="108dp"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="350dp" />
 
     <Button
         android:id="@+id/btnnext"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="445dp"
+        android:layout_marginTop="425dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/arrow"
         android:onClick="next" />

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tugas3register">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/register"
+        />
+
+    <ImageView
+        android:id="@+id/katasandiimg"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/konfirmasi"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotakkatasandi_shape"
+        android:id="@+id/sandi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:layout_below="@id/image1"/>
+
+    <ImageView
+        android:id="@+id/gembokimg"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_below="@id/image1"
+        android:src="@drawable/gembok" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:src="@drawable/mata"
+        android:id="@+id/mataimg"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"
+        android:layout_below="@id/image1"
+        />
+
+    <ImageView
+        android:id="@+id/katasandiimg"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="155dp"
+        android:src="@drawable/katasandi"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotakkatasandi_shape"
+        android:id="@+id/sandi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:layout_below="@id/image1"/>
+
+    <ImageView
+        android:id="@+id/gembokimg"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="215dp"
+        android:layout_below="@id/image1"
+        android:src="@drawable/gembok" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:src="@drawable/mata"
+        android:id="@+id/mataimg"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="215dp"
+        android:layout_below="@id/image1"/>
+
+    <ImageView
+        android:id="@+id/katasandiimg"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/tulisanemail"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotakkatasandi_shape"
+        android:id="@+id/sandi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_below="@id/image1"
+        />
+
+    <ImageView
+        android:id="@+id/emaillimg"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_below="@id/image1"
+        android:src="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/katasandiimg"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/namalengkap"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotakkatasandi_shape"
+        android:id="@+id/sandi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/image1"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotaklogin_shape"
+        android:id="@+id/kotak_login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="410dp"
+        android:layout_below="@id/image1"
+        app:backgroundTint="@color/biru"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/registerputih"
+        android:id="@+id/reg2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:layout_below="@id/image1"
+        />
+
+    <ImageView
+        android:id="@+id/orangimg"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="-45dp"
+        android:layout_below="@id/image1"
+        android:src="@drawable/orang" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panahkiri"
+        android:id="@+id/panah"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="32dp"
+        android:onClick="panah"
+        />
+
+
+</RelativeLayout>

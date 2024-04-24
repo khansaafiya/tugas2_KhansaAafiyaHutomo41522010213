@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Tugas2login"
         tools:targetApi="31">
         <activity
+            android:name=".tugas3register"
+            android:exported="false" />
+        <activity
+            android:name=".tugas3loginactivity"
+            android:exported="false" />
+        <activity
             android:name=".tugas2register"
             android:exported="false" />
         <activity

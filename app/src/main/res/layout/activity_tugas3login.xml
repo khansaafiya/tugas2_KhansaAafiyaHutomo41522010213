@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tugas3loginactivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login"
+        android:id="@+id/login"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="134dp"
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/katasandi"
+        android:id="@+id/katasandi"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="85dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotakkatasandi_shape"
+        android:id="@+id/kotakkatasandisandi"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="136dp"
+        android:layout_below="@id/login"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gembok"
+        android:id="@+id/gembok"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="148dp"
+        android:layout_below="@id/login"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mata"
+        android:id="@+id/mata"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="148dp"
+        android:layout_below="@id/login"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lengkungan"
+        android:id="@+id/lengkungan"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="155dp"
+        android:layout_below="@id/login"
+         />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotakkatasandi_shape"
+        android:id="@+id/kotakkatasandi"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/login"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tulisanemail"
+        android:id="@+id/tulisanemail"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-5sp"
+       />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/email"
+        android:id="@+id/email"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/login"
+         />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotaklogin_shape"
+        android:id="@+id/kotaklogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:layout_below="@id/login"
+        app:backgroundTint="@color/biru"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loginn"
+        android:id="@+id/loginn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:layout_below="@id/login"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panahkiri"
+        android:id="@+id/panahkiri"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:onClick="panahkiri"/>
+
+
+</RelativeLayout>
+
