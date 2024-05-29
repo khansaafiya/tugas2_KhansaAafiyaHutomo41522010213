@@ -11,39 +11,27 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class tbtampilanawal extends AppCompatActivity {
+public class scantutupbotol3 extends AppCompatActivity {
 
-    Button masukscan;
-
-    Button pindahredeem;
+    Button scanlanjut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.tbtampilanawal);
-        masukscan = findViewById(R.id.scanbarcodee);
+        setContentView(R.layout.activity_scantutupbotol3);
+        scanlanjut = findViewById(R.id.kotak_submit);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        masukscan.setOnClickListener(new View.OnClickListener() {
+        scanlanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pindahkescan = new Intent(tbtampilanawal.this, scantutupbotol.class);
-                startActivity(pindahkescan);
-            }
-        });
-        pindahredeem = findViewById(R.id.buttonreedem);
-
-        pindahredeem.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent masukkeredeem = new Intent(tbtampilanawal.this, redeemvaganza.class);
-                startActivity(masukkeredeem);
+                Intent lanjutscan4 = new Intent(scantutupbotol3.this, scantutupbotol4.class);
+                startActivity(lanjutscan4);
             }
         });
     }

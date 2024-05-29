@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Tugas2login"
         tools:targetApi="31">
         <activity
+            android:name=".redeemvaganza"
+            android:exported="false" />
+        <activity
+            android:name=".hasilscantutup"
+            android:exported="false" />
+        <activity
+            android:name=".scanktp"
+            android:exported="false" />
+        <activity
+            android:name=".scantutupbotol4"
+            android:exported="false" />
+        <activity
+            android:name=".scantutupbotol3"
+            android:exported="false" />
+        <activity
+            android:name=".scantutupbotol2"
+            android:exported="false" />
+        <activity
+            android:name=".scantutupbotol"
+            android:exported="false" />
+        <activity
             android:name=".tugas4tb1"
             android:exported="false" />
         <activity

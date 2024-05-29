@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scantutupbotol">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panahscanbtl"
+        android:id="@+id/panahscanbtl"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:onClick="panahscanbtl"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fotoorg"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+       />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tulisantotal"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tulisansetiapkali"
+        android:layout_marginTop="275dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scancamera"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:background="@drawable/kotaklogin_shape"
+        app:backgroundTint="@color/biru"
+        android:id="@+id/kotaksubmit"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tekssubmit"
+        android:layout_marginTop="607dp"
+        android:layout_marginLeft="170dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:background="@drawable/kotakkatasandi_shape"
+        app:backgroundTint="@color/biru"
+        android:id="@+id/kotakkatasandi"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tekscancel"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="170dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

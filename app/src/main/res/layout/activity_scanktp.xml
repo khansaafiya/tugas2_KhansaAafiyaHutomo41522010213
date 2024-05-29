@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scanktp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teksscanktp"
+        android:id="@+id/scanktp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:onClick="scanktp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fotoorg"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tulisantotal"
+         android:id="@+id/tulisantotal"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teksscanktpp"
+        android:layout_below="@+id/tulisantotal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/tekssetiapkali"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scankameraktp"
+        android:layout_below="@+id/tekssetiapkali"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scanktp"/>
+
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fotoorgktp"
+        android:layout_below="@+id/tekssetiapkali"
+        android:layout_marginTop="46dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:background="@drawable/kotaklogin_shape"
+        app:backgroundTint="@color/biru"
+        android:id="@+id/kotak_savektp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tekssave"
+        android:layout_marginTop="633dp"
+        android:layout_marginLeft="170dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:background="@drawable/kotakkatasandi_shape"
+        app:backgroundTint="@color/biru"
+        android:id="@+id/kotakkatasandi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tekscancel"
+        android:layout_marginTop="693dp"
+        android:layout_marginLeft="170dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
